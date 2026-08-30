@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Contact Empowered Bridge Foundation, a youth-led NGO serving Huye, Kigali, and Kirehe." />
+    <title>Contact · Empowered Bridge Foundation</title>
+    <link rel="icon" href="assets/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body data-page="contact">
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <p class="eyebrow">Contact</p>
+          <h1>Write, call, or visit. The door is open.</h1>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container contact-grid">
+          <div>
+            <h2>Reach the team</h2>
+            <ul class="contact-list">
+              <li>
+                <span>Email</span>
+                <a href="mailto:empoweredbridgefoundation@gmail.com">empoweredbridgefoundation@gmail.com</a>
+              </li>
+              <li>
+                <span>Phone</span>
+                <a href="tel:+250789980853">+250 789 980 853</a>
+                <a href="tel:+250787800310">+250 787 800 310</a>
+              </li>
+              <li>
+                <span>Social</span>
+                <a href="https://www.instagram.com/empoweredbridgefoundation" target="_blank" rel="noreferrer">@empoweredbridgefoundation</a>
+              </li>
+              <li>
+                <span>Headquarters</span>
+                <p>Huye, Southern Province, Rwanda</p>
+              </li>
+              <li>
+                <span>Also serving</span>
+                <p>Kigali and Kirehe District</p>
+              </li>
+            </ul>
+          </div>
+
+          <form class="contact-form">
+            <label>
+              Name
+              <input name="name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" required />
+            </label>
+            <label>
+              I am a
+              <select name="role">
+                <option value="supporter">Supporter</option>
+                <option value="volunteer">Volunteer</option>
+                <option value="partner">Partner / organization</option>
+                <option value="media">Media</option>
+              </select>
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="5" required></textarea>
+            </label>
+            <button type="submit" class="btn btn-gold">Send message</button>
+            <p class="note" hidden>
+              Your email app should open. If it does not, write us directly at
+              empoweredbridgefoundation@gmail.com.
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <script src="js/site.js"></script>
+  </body>
+</html>
